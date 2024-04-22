@@ -1,3 +1,8 @@
+.navigation li:nth-child(4),footer li:nth-child(4){
+    background: linear-gradient(45deg,red,rgb(115, 115, 214));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent;
+}
 .navigation {
     display: flex;
     justify-content: space-between;
@@ -37,23 +42,31 @@ nav ul li{
     margin-left: 20px;
     color: white;
 }
+
 .heroImg{
-    margin-top: 50px;
-    height: 500px;
-    padding: 25px;
-    text-align: center;
+    padding: 80px;
 }
-h1{
-    padding: 5px;
+.heroImg .content{
+    display: flex;
+    align-items: bottom;
 }
-p{
-    padding: 5px;
+.heroImg .content .text{
+    flex:1;
+    padding-right: 20px;
+    
+}
+.heroImg .content img{
+    max-width: 60%;
+    flex-shrink: 0;
 }
 .content{
     width: 500px;
     margin: 0 auto;
-    text-align: center;
+    text-align: left;
     padding: 5px;
+}
+.heroImg .button{
+    text-align: center;
 }
 footer{
     background-color: #373738;
@@ -70,4 +83,7 @@ footer li{
     padding: 5px;
     margin: 0 auto;
     color: white;
+}
+footer img {
+    margin-right: 10px;
 }
