@@ -2,15 +2,24 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
+    padding: 5px;
+    background-color: #373738;
+    text-align: right;
 }
 .inline-block{
     display: inline-block;
     vertical-align: top;
 }
+.name{
+    white-space: nowrap;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    color: white;
+}
 .Logo{
     width: 23%;
-    padding: 1%;
+    padding: 0%;
     text-align: center;
 }
 nav{
@@ -26,10 +35,11 @@ nav ul li{
     display: inline-block;
     vertical-align: top;
     margin-left: 20px;
-    color: black;
+    color: white;
 }
 .heroImg{
-    height: 600px;
+    margin-top: 50px;
+    height: 500px;
     padding: 25px;
     text-align: center;
 }
