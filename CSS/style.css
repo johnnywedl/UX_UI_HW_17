@@ -1,0 +1,21 @@
+.inline-block li{
+    display:inline-block;
+    vertical-align: top;
+}
+
+.inline-block p{
+    display:inline-block;
+    vertical-align: top;
+}
+
+.inline-block {
+    display:inline-block;
+    vertical-align: top;
+}
+
+.logo{
+    width: 23%;
+    padding: 1%;
+    text-align: center;
+}
+
