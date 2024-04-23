@@ -10,10 +10,12 @@
     padding: 5px;
     background-color: #373738;
     text-align: right;
+
 }
 .inline-block{
     display: inline-block;
     vertical-align: top;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .name{
     white-space: nowrap;
@@ -21,6 +23,10 @@
     vertical-align: top;
     text-align: left;
     color: white;
+    padding-left: 25px;
+}
+.jw{
+    margin-top: 30px;
 }
 .Logo{
     width: 23%;
@@ -34,7 +40,7 @@ nav{
 nav ul{
     list-style-type: none;
     padding: 0;
-    margin-left: auto;
+    /* margin-left: auto; */
 }
 nav ul li{
     display: inline-block;
@@ -42,7 +48,6 @@ nav ul li{
     margin-left: 20px;
     color: white;
 }
-
 .heroImg{
     padding: 80px;
 }
@@ -53,7 +58,6 @@ nav ul li{
 .heroImg .content .text{
     flex:1;
     padding-right: 20px;
-    
 }
 .heroImg .content img{
     max-width: 60%;
@@ -65,25 +69,40 @@ nav ul li{
     text-align: left;
     padding: 5px;
 }
-.heroImg .button{
-    text-align: center;
+.text h1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.text p{
+    font-family: Arial, Helvetica, sans-serif;}
+.buttonbox{
+    display:flex;
+    justify-content: center;
+    padding: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ul{
+    padding-right: 40px;
 }
 footer{
     background-color: #373738;
     padding: 5px;
     text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 }
 footer ul{
     display:inline-block;
-    vertical-align: top;
+
 }
 footer li{
     display:inline-block;
-    vertical-align: top;
+    vertical-align: center;
     padding: 5px;
-    margin: 0 auto;
+    margin: 0;
     color: white;
 }
-footer img {
-    margin-right: 10px;
+footer a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
